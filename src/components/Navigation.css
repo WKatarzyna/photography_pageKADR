@@ -1,0 +1,116 @@
+.nav_container {
+    position: absolute;
+    margin-top: 16%;
+    /*line-height: 1.7;*/
+    /*font-family: "Merriweather", sans-serif;*/
+    /*color:white;*/
+    left: 50%;
+    /*top: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+}
+
+nav {
+
+    font-weight: 400;
+    font-size: 50px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 1px 2px rgba(95, 95, 95, 0.96);
+}
+
+#social-links {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px;
+    margin-left: 100px;
+}
+
+#instDiv, #fbDiv {
+    width: 40px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+#instagram-path, #fb-path {
+    fill: white;
+}
+
+#logo_container {
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+
+}
+
+#logo {
+    width: 350px;
+    height: 70px;
+
+}
+
+
+.menu__container--white {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 200px 210px 220px 230px 240px;
+    grid-gap: 10px;
+    padding: 30px;
+    margin-left: 5rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Italianno', sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.slide_container {
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 75px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slide {
+    position: absolute;
+    vertical-align: middle;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    /* position: absolute; */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* opacity: 0; */
+    transition: opacity 1s ease-in-out;
+    /*animation: fade 16s 0s infinite;*/
+
+}
+
+@keyframes fade {
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    92% {
+        opacity: 0;
+    }
+}
+
+
+a, a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: rgba(84, 0, 7, 0.22);
+}
+
